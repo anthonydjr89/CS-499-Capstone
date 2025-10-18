@@ -25,11 +25,10 @@ _Draft placeholder — final PSA text will be inserted here._
 --- 
 
 ## Quick Links for Evaluators 
-- Code Review Video:  
+- Code Review Video:   
   <a href="https://youtu.be/sTQAMAFJm1Q" target="_blank">
-    <img src="https://img.shields.io/badge/Watch%20on%20YouTube-red?style=for-the-badge&logo=youtube" alt="Watch on YouTube">
+    <img src="https://img.shields.io/badge/YouTube-WATCH%20ON%20YOUTUBE-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
   </a>
-
 
 
 - Repository Root: (this page)
