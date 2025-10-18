@@ -1,6 +1,6 @@
 # Code Review – CS 499 Capstone 
 
-## Overview This video presents my informal code review of the artifacts selected for my CS-499 Capstone ePortfolio. In the review, I walk through the existing code functionality, analyze areas for improvement, and outline enhancement plans across all three core categories of computer science: 
+## This video presents my informal code review of the artifacts selected for my CS-499 Capstone ePortfolio. In the review, I walk through the existing code functionality, analyze areas for improvement, and outline enhancement plans across all three core categories of computer science: 
 
 - **Software Design and Engineering** 
 - **Algorithms and Data Structures** 
