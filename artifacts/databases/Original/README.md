@@ -9,22 +9,22 @@ These files handled how data was accessed and stored using MongoDB and Mongoose.
 ## File Descriptions & Code files
 
 [**travlr/app.js**](./app.js)
-Connected routes and middleware, loading database models before routes. Error handling existed but lacked standardized formatting for database errors. 
+-Connected routes and middleware, loading database models before routes. Error handling existed but lacked standardized formatting for database errors. 
 
 [**travlr/app_api/models/db.js**](./db.js)
-Connected to MongoDB directly using `mongoose.connect()` without retry or graceful shutdown handling. There was no mechanism for reconnecting if the database failed to connect initially. 
+-Connected to MongoDB directly using `mongoose.connect()` without retry or graceful shutdown handling. There was no mechanism for reconnecting if the database failed to connect initially. 
 
 [**travlr/app_api/models/travlr.js**](./travlr.js)
-Defined the trip schema for MongoDB. Included basic fields and a unique trip code, but no validation or indexing beyond the default unique constraint. 
+-Defined the trip schema for MongoDB. Included basic fields and a unique trip code, but no validation or indexing beyond the default unique constraint. 
 
 [**travlr/app_api/controllers/trips.js**](./trips.js) 
-Handled CRUD operations for trips. Each request interacted directly with the database without pagination, validation, or consistency checks. 
+-Handled CRUD operations for trips. Each request interacted directly with the database without pagination, validation, or consistency checks. 
 
 [**travlr/app_api/controllers/authentication.js**](./authentication.js) 
-Registered users and verified login credentials. Saved new users directly into the database but exposed raw errors from Mongoose instead of using standardized responses. 
+-Registered users and verified login credentials. Saved new users directly into the database but exposed raw errors from Mongoose instead of using standardized responses. 
 
 [**travlr/app_api/config/passport.js**](./passport.js) 
-Used Passport’s local strategy to validate users by checking their email and password. Queried the users collection but did not include any attempt tracking or connection resilience.
+-Used Passport’s local strategy to validate users by checking their email and password. Queried the users collection but did not include any attempt tracking or connection resilience.
 
 ## Result 
 The original database implementation worked well for small applications but had limited fault tolerance and optimization. It formed a functional starting point for improving connection reliability, validation, and error consistency in the enhanced version.
