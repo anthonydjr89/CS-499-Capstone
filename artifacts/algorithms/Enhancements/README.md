@@ -39,3 +39,5 @@ Core logic for each enhancement was first outlined using pseudocode to evaluate 
 
 ## Result 
 After these enhancements, the Travlr application efficiently manages trip data, handles larger record sets, and maintains stable performance. This demonstrates practical use of algorithms and data structure concepts to improve both backend and frontend efficiency in a production-style environment.
+
+All enhancements were planned and tested iteratively following the Software Development Life Cycle (SDLC), with milestone checkpoints to verify functionality after each change.
