@@ -8,23 +8,23 @@ The enhancements were implemented to make the trip management process more effic
 
 ## Summary of Enhancements 
 
-### **1. `travlr/app_api/controllers/trips.js`** 
+[**travlr/app_api/controllers/trips.js**](./trips.js)
 - Added **pagination** with `page` and `limit` parameters.
 - Implemented a consistent API structure `{ data, page, limit, total }`.
 - Added input validation using Joi to improve data integrity.
 - Improved efficiency by limiting results and sorting via indexed fields.
 
-### **2. `travlr/app_api/models/travlr.js`** 
+[**travlr/app_api/models/travlr.js**](./travlr.js)
 - Added a **regex rule** for trip code format and numeric range limits for prices.
 - Introduced an **index on the `start` field** for faster queries and sorting.
 - Documented schema fields for clarity and long-term maintainability.
 
-### **3. `travlr/app_admin/src/app/services/trip-data.service.ts`** 
+[**travlr/app_admin/src/app/services/trip-data.service.ts**](./trip-data.service.ts)
 - Added **paged request support** to match backend pagination.
 - Introduced typed response handling to process structured JSON efficiently.
 - Clarified that name is used for registration but not for login.
 
-### **4. `travlr/app_admin/src/app/trip-listing/trip-listing.component.ts`** 
+[**travlr/app_admin/src/app/trip-listing/trip-listing.component.ts**](./trip-listing.component.ts)
 - Updated component logic to **load trips page-by-page** instead of all at once.
 - Added local variables for page, limit, and total count.
 - Prepared the UI to support efficient filtering and future search features.
