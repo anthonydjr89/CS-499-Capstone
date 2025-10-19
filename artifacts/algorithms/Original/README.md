@@ -13,7 +13,7 @@ This setup was functional and simple, but it became inefficient as data grew. It
 [**travlr/app_api/controllers/trips.js**](./trips.js)
 Provided endpoints for listing, creating, updating, and finding trips. Returned all trips in one call with no pagination, sorting, or validation improvements. 
 
-[**travlr/app_api/models/travlr.js**](./travlr.js) - 
+[**travlr/app_api/models/travlr.js**](./travlr.js) —  
 Defined the trip schema with basic field requirements and a unique `code`. No validation rules or optimized indexes were included. 
 
 [**travlr/app_admin/src/app/services/trip-data.service.ts**](./trip-data.service.ts)
