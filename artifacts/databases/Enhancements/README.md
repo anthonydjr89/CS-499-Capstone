@@ -8,32 +8,32 @@ The goal was to strengthen the application’s interaction with MongoDB by addin
 
 ## Summary of Enhancements 
 
-### **1. `travlr/app.js`** 
+[**app.js**](./app.js) 
 - Ensured the database connection loads before routes to prevent missing models.
 - Added standardized JSON responses for all API-level database errors.
 - Introduced structured request logging and improved error tracking.
 
-### **2. `travlr/app_api/models/db.js`** 
+[**authentication.js**](./authentication.js)
 - Added retry and back-off logic for initial connections.
 - Introduced graceful shutdown hooks for `SIGINT` and `SIGTERM`.
 - Commented all connection event handlers to explain behavior and purpose.
 
-### **3. `travlr/app_api/models/travlr.js`** 
+[**db.js**](./db.js)
 - Added detailed field validation, regex enforcement, and numeric ranges.
 - Created an index on `start` for efficient sorting and pagination.
 - Documented each schema field for clarity and long-term maintainability.
 
-### **4. `travlr/app_api/controllers/trips.js`** 
+[**passport.js**](./passport.js)
 - Integrated Joi validation to prevent invalid or missing fields.
 - Implemented pagination and consistent 404/409 database responses.
 - Enabled `runValidators` in `findOneAndUpdate` to enforce schema rules during updates.
 
-### **5. `travlr/app_api/controllers/authentication.js`** 
+[**travlr.js**](./travlr.js)
 - Improved user registration by catching database errors and returning user-friendly messages.
 - Replaced raw MongoDB error responses with clear JSON messages.
 - Added a simple login attempt throttle to prevent repeated failed queries.
 
-### **6. `travlr/app_api/config/passport.js`** 
+[**trips.js**](./trips.js)
 - Renamed unclear variables for readability.
 - Added rate-limit logic to slow repeated failed authentication attempts.
 - Improved database query handling for cleaner, more stable user lookups.
