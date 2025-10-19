@@ -41,7 +41,7 @@ This portfolio presents my comprehensive work for the CS-499 Capstone, including
 
   Completing this program has transformed how I approach software design and problem-solving. I now think systematically balancing performance, security, and maintainability in every decision. Collaboration, communication, and structured documentation have become natural parts of my workflow. 
     
-    This ePortfolio serves as both proof of my capabilities and a bridge to my next career step: joining the IT team that manages and secures the DCS systems at my company. The enhanced Travlr Getaways project reflects the professional skills I will bring to that environment—analytical problem-solving, reliable engineering, secure data management, and clear communication across diverse technical and business audiences.
+  This ePortfolio serves as both proof of my capabilities and a bridge to my next career step joining the IT team that manages and secures the DCS systems at my company. The enhanced Travlr Getaways project reflects the professional skills I will bring to that environment—analytical problem-solving, reliable engineering, secure data management, and clear communication across diverse technical and business audiences.
 
 ## Portfolio Navigation 
 - 🎥 [Code Review](code-review/README.md) 
