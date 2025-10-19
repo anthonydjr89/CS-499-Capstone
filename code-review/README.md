@@ -43,6 +43,6 @@ This code review supports all five CS-499 course outcomes by demonstrating:
 
 ## Next Steps 
 The enhancements outlined in this review were implemented and demonstrated through my three artifact submissions: 
-- [Software Design & Engineering Enhancement](../artifacts/software-design/README.md) 
-- [Algorithms & Data Structures Enhancement](../artifacts/algorithms/README.md) 
-- [Databases Enhancement](../artifacts/databases/README.md)
+- [Software Design & Engineering](../artifacts/software-design/README.md) 
+- [Algorithms & Data Structures](../artifacts/algorithms/README.md) 
+- [Databases](../artifacts/databases/README.md)
