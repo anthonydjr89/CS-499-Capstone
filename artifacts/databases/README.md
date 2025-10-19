@@ -6,11 +6,13 @@ It demonstrates how database connectivity, schema design, and data integrity wer
 ---
 
 ## 🔗 Browse Files
-- [Original Files](./original/) — Contains the initial database connection, schema, and data-handling files.  
-- [Enhanced Files](./enhanced/) — Contains the updated versions that introduce connection retry logic, graceful shutdowns, schema validation, and field indexing.
+
+- [📁 Original Files](./Original/) — Contains the initial database connection, schema, and data-handling files.  
+- [⚙️ Enhanced Files](./Enhancements/) — Contains the updated versions that introduce connection retry logic, graceful shutdowns, schema validation, and field indexing.
 
 ---
 
 ## 🧩 Summary
+
 These enhancements show improved data consistency, fault tolerance, and professional database design practices.  
-Click a folder above to explore the actual files and see how the database layer was refined for performance and reliability.
+Click the folder links above to view the actual source code and compare the original and enhanced implementations.
