@@ -4,7 +4,7 @@
 This folder documents all database-related enhancements made to the Travlr web application for my CS-499 ePortfolio. These updates focus on improving reliability, validation, and database performance through structured schema design, error handling, and connection management.
 
 ## Purpose of the Enhancements 
-The goal was to strengthen the application’s interaction with MongoDB by adding **connection stability**, **graceful shutdown**, **schema validation**, and **consistent database error handling**. These changes improve data integrity, performance, and resilience — all key aspects of database design in production systems.
+The goal was to strengthen the application’s interaction with MongoDB by adding **connection stability**, **graceful shutdown**, **schema validation**, and **consistent database error handling**. These changes enhance data integrity, performance, and reliability, which are all important elements of effective database design in real-world systems.
 
 ## Summary of Enhancements 
 
