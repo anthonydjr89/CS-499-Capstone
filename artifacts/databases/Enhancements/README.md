@@ -45,4 +45,4 @@ The goal was to strengthen the application’s interaction with MongoDB by addin
 - Improving query performance with **indexes** and efficient data access strategies.
 
 ## Result 
-After enhancement, the database layer became reliable, resilient, and optimized for performance. These updates demonstrate professional-level skills in database design, validation, and fault-tolerant application development.
+After the enhancement, the database layer became more stable, dependable, and faster. These improvements show strong skills in database design, data validation, and building reliable applications.
