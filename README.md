@@ -1,6 +1,6 @@
 # CS-499 Capstone ePortfolio — Anthony DePoalo 
 
-Welcome to my Computer Science Capstone ePortfolio. This site presents my informal code review and three enhanced artifacts demonstrating competencies in **Software Design & Engineering**, **Algorithms & Data Structures**, and **Databases**. 
+This portfolio presents my comprehensive work for the CS-499 Capstone, including an informal code review and three enhanced artifacts that demonstrate professional competencies in Software Design and Engineering, Algorithms and Data Structures, and Databases. Each enhancement reflects my ability to apply core computer science principles, improve system performance and security, and deliver reliable, well-structured software solutions. Together, these artifacts showcase my technical growth, problem-solving skills, and readiness to contribute effectively in collaborative, professional environments.
 
 
 ## Professional Self-Assessment — Anthony DePoalo 
