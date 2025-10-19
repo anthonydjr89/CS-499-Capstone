@@ -2,7 +2,6 @@
 
 Welcome to my Computer Science Capstone ePortfolio. This site presents my informal code review and three enhanced artifacts demonstrating competencies in **Software Design & Engineering**, **Algorithms & Data Structures**, and **Databases**. 
 
---- 
 
 ## Professional Self-Assessment — Anthony DePoalo 
 
@@ -44,7 +43,6 @@ Welcome to my Computer Science Capstone ePortfolio. This site presents my inform
     
     This ePortfolio serves as both proof of my capabilities and a bridge to my next career step: joining the IT team that manages and secures the DCS systems at my company. The enhanced Travlr Getaways project reflects the professional skills I will bring to that environment—analytical problem-solving, reliable engineering, secure data management, and clear communication across diverse technical and business audiences.
 
---- 
 ## Portfolio Navigation 
 - 🎥 [Code Review](code-review/README.md) 
 - 🧩 [Software Design & Engineering Enhancement](artifacts/software-design/README.md) 
