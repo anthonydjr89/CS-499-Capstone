@@ -6,7 +6,7 @@ This folder documents the algorithmic and data structure improvements made to th
 ## Purpose of the Enhancements 
 The enhancements were implemented to make the trip management process more efficient as data volume increases. They apply practical algorithmic improvements, including **pagination**, **indexed lookups**, and **optimized data structures** for API responses. This work demonstrates my ability to identify and solve performance problems through algorithmic design choices.
 
-Core logic for each enhancement was first outlined in simple pseudocode to evaluate structure and trade-offs before implementation.
+Core logic for each enhancement was first outlined using pseudocode to evaluate structure and trade-offs before implementation.
 
 ## Summary of Enhancements 
 
