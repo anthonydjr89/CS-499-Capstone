@@ -68,3 +68,5 @@ These enhancements demonstrate:
 - Improved usability, validation, and consistency across the system.
 
 The final version shows a complete, well-structured application ready for testing, future scaling, and professional presentation as part of the **Software Design and Engineering** outcome.
+
+All enhancements were planned and tested iteratively following the Software Development Life Cycle (SDLC), with milestone checkpoints to verify functionality after each change.
