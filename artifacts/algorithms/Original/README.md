@@ -8,18 +8,18 @@ The original version of these files handled all trip retrieval and display logic
 
 This setup was functional and simple, but it became inefficient as data grew. It served as a solid starting point for demonstrating how to apply algorithms and data structure enhancements to improve scalability and responsiveness.
 
-## File Descriptions 
+## File Descriptions & Code files
 
-### **1. `travlr/app_api/controllers/trips.js`** 
+[**travlr/app_api/controllers/trips.js**](./trips.js)
 Provided endpoints for listing, creating, updating, and finding trips. Returned all trips in one call with no pagination, sorting, or validation improvements. 
 
-### **2. `travlr/app_api/models/travlr.js`** 
+[**travlr/app_api/models/travlr.js**](./travlr.js) 
 Defined the trip schema with basic field requirements and a unique `code`. No validation rules or optimized indexes were included. 
 
-### **3. `travlr/app_admin/src/app/services/trip-data.service.ts`** 
+[**travlr/app_admin/src/app/services/trip-data.service.ts**](./trip-data.service.ts)
 Handled data requests from the Angular frontend to the backend. Always requested the full list of trips from the API without specifying limits or pages. 
 
-### **4. `travlr/app_admin/src/app/trip-listing/trip-listing.component.ts`** 
+[**travlr/app_admin/src/app/trip-listing/trip-listing.component.ts**](./trip-listing.component.ts)
 Displayed the list of trips on the admin side of the application. Loaded all trips at once, which was fine for small data but inefficient for larger datasets. 
 
 ## Result 
