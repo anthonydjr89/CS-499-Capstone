@@ -31,7 +31,7 @@ Welcome to my Computer Science Capstone ePortfolio. This site presents my inform
   
   For my future role in industrial IT, this mindset will be critial. A single misconfigured connection or unvalidated input could disrupt process-control networks or expose proprietary data. The habits built here—least privilege access, input validation, error sanitization, and consistent logging—translate directly to protecting DCS assets.
 
-  The three enhanced categories—Software Design & Engineering, Algorithms & Data Structures, and Databases—fit together into a unified story of technical growth. They are all drawn from the same Travlr Getaways system, showing how a single artifact can evolve across multiple dimensions of improvement. 
+  The three enhanced categories: Software Design & Engineering, Algorithms & Data Structures, and Databases all come together to show the progression of my technical development. They are all drawn from the same Travlr Getaways system, showing how a single artifact can evolve across multiple dimensions of improvement. 
   
   - Software Design & Engineering demonstrates system architecture, modularity, and secure user experience.
   - Algorithms & Data Structures showcases efficient pagination, optimized search, and front-to-back data handling.
