@@ -11,51 +11,51 @@ The Travlr system is a full-stack web application that manages travel trip data.
 
 ## **Summary of Enhancements** 
 
-### **1. `travlr/app.js`** 
+[**travlr/app.js**](./app.js)
 - **Before:** No request tracking or standardized error handling.
 - **After:** Added unique request IDs and structured JSON errors (`{ code, message, requestId }`) for API consistency and easier debugging.
 
-### **2. `travlr/app_api/routes/index.js`** 
+[**travlr/app_api/routes/index.js**](./index.js)
 - **Before:** Token validation was incomplete and inconsistent.
 - **After:** Finished `authenticateJWT` and added role-based access control (`requireRole('admin')`), clearly separating public and protected routes.
 
-### **3. `travlr/app_api/controllers/trips.js`** 
+[**travlr/app_api/controllers/trips.js**](./trips.js) 
 - **Before:** Returned all trips with no pagination or validation.
 - **After:** Added pagination (`page`/`limit`), field validation using Joi, and consistent 404 messages for missing trips.
 
-### **4. `travlr/app_api/controllers/authentication.js`** 
+[**travlr/app_api/controllers/authentication.js**](./authentication.js)
 - **Before:** Exposed raw database errors and unclear variable names.
 - **After:** Sanitized responses, renamed variables for clarity, returned `{ token }` only, and added login rate limiting for security.
 
-### **5. `travlr/app_api/config/passport.js`** 
+[**travlr/app_api/config/passport.js**](./passport.js)
 - **Before:** Used generic variable names and allowed unlimited login attempts.
 - **After:** Renamed variables for readability and added a simple in-memory back-off system to slow brute-force attacks.
 
-### **6. `travlr/app_api/models/db.js`** 
+[**travlr/app_api/models/db.js**](./db.js)
 - **Before:** No retry or shutdown handling on database disconnects.
 - **After:** Added retry/back-off for initial connections and graceful shutdown hooks on exit signals for stability.
 
-### **7. `travlr/app_api/models/travlr.js`** 
+[**travlr/app_api/models/travlr.js**](./travlr.js)
 - **Before:** Basic schema with minimal validation.
 - **After:** Added regex validation for trip codes, numeric range limits for price, and field indexing for performance and sorting.
 
-### **8. `travlr/app_admin/src/app/utils/jwt-interceptor.ts`** 
+[**travlr/app_admin/src/app/utils/jwt-interceptor.ts**](./jwt-interceptor.ts)
 - **Before:** Token added to all requests, no global 401 handling.
 - **After:** Skips token on login/register and automatically logs out and redirects on 401 responses.
 
-### **9. `travlr/app_admin/src/app/trip-listing/trip-listing.component.ts`** 
+[**travlr/app_admin/src/app/trip-listing/trip-listing.component.ts**](./trip-listing.component.ts)
 - **Before:** No inline comments or clear error handling.
 - **After:** Added loading/error comments and integrated login checks for protected actions.
 
-### **10. `travlr/app_admin/src/app/trip-listing/trip-listing.component.html`** 
+[**travlr/app_admin/src/app/trip-listing/trip-listing.component.html**](./trip-listing.component.html)
 - **Before:** Used unclear variable naming in loops.
 - **After:** Improved readability by renaming variables (e.g., `t` → `trip`).
 
-### **11. `travlr/app_admin/src/app/add-trip/add-trip.component.ts`** 
+[**travlr/app_admin/src/app/add-trip/add-trip.component.ts**](./add-trip.component.ts)
 - **Before:** Only basic form validation on the client.
 - **After:** Strengthened validation to match server rules and added inline comments for the save flow and error mapping.
 
-### **12. `travlr/app_admin/src/app/services/trip-data.service.ts`** 
+[**travlr/app_admin/src/app/services/trip-data.service.ts**](./trip-data.service.ts)
 - **Before:** Static data loading with no pagination or typed responses.
 - **After:** Added pagination support, typed responses, and clear comments about how authentication APIs are handled.
 
