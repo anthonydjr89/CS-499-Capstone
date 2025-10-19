@@ -4,7 +4,7 @@ This portfolio presents my complete work for the CS-499 Capstone, including an i
 
 This portfolio demonstrates how my academic coursework, milestone projects, and applied enhancements integrate to meet the five Computer Science program outcomes. It reflects my ability to combine theoretical knowledge with practical software development skills to create secure, efficient, and maintainable systems. These works also highlight my readiness to advance professionally into the IT department that manages and programs Distributed Control Systems (DCS) at my current organization.
 
-## Professional Self-Assessment — Anthony DePoalo 
+## Professional Self-Assessment 
 
   My Bachelor of Science in Computer Science program at Southern New Hampshire University has been a continuous journey of applying theory to practice. Through the final capstone project, I have demonstrated the ability to design, implement, and secure complete software systems while developing strong professional and collaborative skills. My goal is to transition into the IT department at my current company, specifically into the team responsible for Distributed Control System (DCS) programming. The capstone’s enhanced artifact, Travlr Getaways, a full-stack web application built with Node.js, Express, MongoDB, and Angular, represents how the knowledge gained across all program areas integrates into real, maintainable, and secure solutions. 
 
