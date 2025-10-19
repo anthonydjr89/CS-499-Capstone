@@ -30,10 +30,10 @@ Defines the API endpoints for authentication and trip management. Includes route
 [**travlr/app_api/config/passport.js**](./passport.js) 
 -Sets up the Passport local authentication strategy. Checks usernames and passwords to confirm user identity when logging in. 
 
-**travlr/app_api/models/db.js**](./db.js) 
+[**travlr/app_api/models/db.js**](./db.js) 
 -Connects the application to the MongoDB database. Defines how the database connection starts and handles connection events. 
 
-**travlr/app_api/models/travlr.js**](./travlr.js) 
+[**travlr/app_api/models/travlr.js**](./travlr.js) 
 -Defines the schema for trip data. Specifies what fields each trip has (code, name, length, resort, start date, etc.) and how they are stored in MongoDB
 
 [**travlr/app_admin/src/app/utils/jwt-interceptor.ts**](./jwt-interceptor.ts) 
