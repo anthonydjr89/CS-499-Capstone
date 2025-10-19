@@ -9,6 +9,8 @@ The Travlr system is a full-stack web application that manages travel trip data.
 - The **backend** (Node.js/Express) handles API routes, authentication, database models, and error handling.
 - The **frontend** (Angular) provides the admin interface for listing, adding, and managing trips. Together, these files showcase clean software design, modular organization, and secure interaction between client and server.
 
+Core logic for each enhancement was first outlined using pseudocode to evaluate structure and trade-offs before implementation.
+
 ## **Summary of Enhancements** 
 
 [**travlr/app.js**](./app.js)
