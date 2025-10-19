@@ -48,3 +48,5 @@ Core logic for each enhancement was first outlined using pseudocode to evaluate 
 
 ## Result 
 After the enhancement, the database layer became more stable, dependable, and faster. These improvements show strong skills in database design, data validation, and building reliable applications.
+
+All enhancements were planned and tested iteratively following the Software Development Life Cycle (SDLC), with milestone checkpoints to verify functionality after each change.
