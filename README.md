@@ -2,6 +2,7 @@
 
 This portfolio presents my comprehensive work for the CS-499 Capstone, including an informal code review and three enhanced artifacts that demonstrate professional competencies in Software Design and Engineering, Algorithms and Data Structures, and Databases. Each enhancement reflects my ability to apply core computer science principles, improve system performance and security, and deliver reliable, well-structured software solutions. Together, these artifacts showcase my technical growth, problem-solving skills, and readiness to contribute effectively in collaborative, professional environments.
 
+This portfolio demonstrates how my academic coursework, milestone projects, and applied enhancements integrate to meet the five Computer Science program outcomes. It reflects my ability to combine theoretical knowledge with practical software development skills to create secure, efficient, and maintainable systems. These works also highlight my readiness to advance professionally into the IT department that manages and programs Distributed Control Systems (DCS) at my current organization.
 
 ## Professional Self-Assessment — Anthony DePoalo 
 
@@ -10,6 +11,8 @@ This portfolio presents my comprehensive work for the CS-499 Capstone, including
   Throughout the Computer Science program, collaboration has been essential to success. I learned how to share and review code effectively, use version control systems such as Git and GitHub, and document changes clearly so that others can follow my work. In the CS-499 code-review milestone, I simulated a team code-review setting by walking through each file of the Travlr project, explaining structure, logic, and enhancement plans. This process mirrored professional peer review, emphasizing clarity, constructive feedback, and accountability. 
 
   Collaborative practices also extended beyond coding. In earlier courses such as CS-250 Software Development Lifecycle and CS-320 Software Testing, I worked in simulated multi-developer environments that stressed communication of requirements, sprint scheduling, and defect tracking. These skills transfer directly to an IT or DCS environment, where updates, audits, and troubleshooting depend on accurate documentation and shared understanding. My enhancement documentation, structured commit messages, and clear README files were designed as if teammates would immediately continue the project demonstrating readiness to contribute to a real engineering team.
+
+  The portfolio also incorporates all milestone deliverables from the CS-499 Capstone. Each enhancement and narrative builds on instructor feedback received across Modules Two through Seven, resulting in a cohesive representation of continuous improvement, technical mastery, and professional communication.
 
   Professional communication was developed across both technical and non-technical contexts. Every artifact in the portfolio includes narrative write-ups that translate complex design or algorithmic choices into plain language understandable by decision-makers. My code-review video further demonstrates this by balancing technical accuracy with accessible explanation, similar to communicating with management or clients who need to understand outcomes rather than syntax. 
     
@@ -29,7 +32,7 @@ This portfolio presents my comprehensive work for the CS-499 Capstone, including
   
   In the database layer, connection errors and unexpected shutdowns are safely handled without leaking stack traces. Sensitive information such as JWT secrets and database URIs are managed through environment variables instead of being exposed in code. These changes embody a security-first mindset—anticipating threats before they occur and ensuring systems fail safely. 
   
-  For my future role in industrial IT, this mindset will be critial. A single misconfigured connection or unvalidated input could disrupt process-control networks or expose proprietary data. The habits built here—least privilege access, input validation, error sanitization, and consistent logging—translate directly to protecting DCS assets.
+  For my future role in industrial IT, this mindset will be critical. A single misconfigured connection or unvalidated input could disrupt process-control networks or expose proprietary data. The habits built here—least privilege access, input validation, error sanitization, and consistent logging—translate directly to protecting DCS assets.
 
   The three enhanced categories: Software Design & Engineering, Algorithms & Data Structures, and Databases all come together to show the progression of my technical development. They are all drawn from the same Travlr Getaways system, showing how a single artifact can evolve across multiple dimensions of improvement. 
   
@@ -38,6 +41,13 @@ This portfolio presents my comprehensive work for the CS-499 Capstone, including
   - Databases highlights schema integrity, indexing, and stable connection management.
 
   Viewed together in the portfolio, these categories present a full-stack engineer capable of designing, optimizing, and securing modern web systems. The GitHub Pages ePortfolio connects these artifacts with their narratives, before-and-after code comparisons, and a code-review video that verifies functional correctness. Each enhancement is clearly mapped to one or more of the five course outcomes (CO1 through CO5), showing measurable evidence of readiness for professional practice.
+
+  Collectively, these enhancements demonstrate achievement of all five program outcomes
+  - CO1: Building collaborative environments that enable diverse teams to make informed decisions.
+  - CO2: Delivering professional-quality communication through clear documentation, visuals, and recorded code reviews.
+  - CO3: Designing and evaluating computing solutions using sound algorithmic principles while balancing performance and trade-offs.
+  - CO4: Applying innovative tools, frameworks, and development techniques to create solutions that deliver measurable value.
+  - CO5: Maintaining a strong security mindset that anticipates vulnerabilities and promotes resilient software architecture.
 
   Completing this program has transformed how I approach software design and problem-solving. I now think systematically balancing performance, security, and maintainability in every decision. Collaboration, communication, and structured documentation have become natural parts of my workflow. 
     
