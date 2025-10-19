@@ -49,7 +49,7 @@ The Travlr system is a full-stack web application that manages travel trip data.
 
 [**travlr/app_admin/src/app/trip-listing/trip-listing.component.html**](./trip-listing.component.html)
 - **Before:** Used unclear variable naming in loops.
-- **After:** Improved readability by renaming variables (e.g., `t` → `trip`).
+- **After:** Improved readability by renaming variables.
 
 [**travlr/app_admin/src/app/add-trip/add-trip.component.ts**](./add-trip.component.ts)
 - **Before:** Only basic form validation on the client.
