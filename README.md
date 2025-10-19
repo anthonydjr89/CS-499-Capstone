@@ -30,7 +30,7 @@ This portfolio demonstrates how my academic coursework, milestone projects, and 
 
   A consistent security focus guided every enhancement. I integrated Helmet middleware for HTTP header protection, applied strict CORS rules, validated all API inputs with Joi-based logic, and enforced role-based access control (RBAC) to restrict administrative routes. The Angular interceptor and backend middleware work together to block unauthorized access and redirect users to /login when tokens expire. 
   
-  In the database layer, connection errors and unexpected shutdowns are safely handled without leaking stack traces. Sensitive information such as JWT secrets and database URIs are managed through environment variables instead of being exposed in code. These changes embody a security-first mindset—anticipating threats before they occur and ensuring systems fail safely. 
+  In the database layer, connection errors and unexpected shutdowns are safely handled without leaking stack traces. Sensitive information such as JWT secrets and database URIs are managed through environment variables instead of being exposed in code. These changes show a security-first mindset—anticipating threats before they occur and ensuring systems fail safely. 
   
   For my future role in industrial IT, this mindset will be critical. A single misconfigured connection or unvalidated input could disrupt process-control networks or expose proprietary data. The habits built here—least privilege access, input validation, error sanitization, and consistent logging—translate directly to protecting DCS assets.
 
