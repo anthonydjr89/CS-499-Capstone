@@ -1,8 +1,11 @@
 Algorithms & Data Structures Narrative
 
 Name: Anthony DePoalo 
+
 Course: CS-499 – Computer Science Capstone 
+
 Instructor: Joseph Martinez 
+
 Date: October 19, 2025
 
 The artifact for this enhancement comes from the Travlr Getaways full-stack project. This app handles trip data using both server-side code with Node.js and Express, and client-side code with Angular. It uses several algorithms for login, data filtering, and managing what’s shown on screen. For this part, I worked on making the code faster, using better algorithm logic, and improving security through cleaner data handling. 	
