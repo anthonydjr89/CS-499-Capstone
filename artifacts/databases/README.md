@@ -7,6 +7,7 @@ It demonstrates how database connectivity, schema design, and data integrity wer
 
 - [📁 Original Files](./Original/) — Contains the initial database connection, schema, and data-handling files.  
 - [⚙️ Enhanced Files](./Enhancements/) — Contains the updated versions that introduce connection retry logic, graceful shutdowns, schema validation, and field indexing.
+- - [📝 Narrative](./Narrative/) — Contains the written narrative explaining the purpose, enhancements, skills demonstrated, and outcome alignment.
 
 ## 🧩 Summary
 
