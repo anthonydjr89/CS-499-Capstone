@@ -7,7 +7,7 @@ It demonstrates structured improvements in code organization, maintainability, a
 
 - [📁 Original Files](./Original/) — Contains the baseline implementation of the system before enhancements.  
 - [⚙️ Enhanced Files](./Enhancements/) — Contains the improved versions featuring secure communication, modular design, and structured request handling.
-
+- [📝 Narrative](./Narrative/) — Contains the written narrative explaining the purpose, enhancements, skills demonstrated, and outcome alignment.
 ## 🧩 Summary
 
 These updates show strong software design and engineering skills that follow industry best practices.  
