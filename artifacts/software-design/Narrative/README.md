@@ -1,4 +1,3 @@
-
 Software Design & Engineering Narrative 
 
 Name: Anthony DePoalo 
@@ -6,31 +5,43 @@ Course: CS-499 – Computer Science Capstone
 Instructor: Joseph Martinez 
 Date: October 19, 2025
 
-The artifact for this enhancement is the Travlr Getaways project, a MEAN stack (MongoDB, Express, Angular, Node.js) travel app I first built in CS-465 Full Stack Development. It includes a RESTful API with JWT login, a server-rendered website, and an Angular dashboard used to manage trip data. I picked this project because it’s a full-stack system that shows my ability to build software with clear organization, smooth flow, and secure features. 
-  
+	The artifact for this enhancement is the Travlr Getaways project, a MEAN stack (MongoDB, Express, Angular, Node.js) travel app I first built in CS-465 Full Stack Development. It includes a RESTful API with JWT login, a server-rendered website, and an Angular dashboard used to manage trip data. I picked this project because it’s a full-stack system that shows my ability to build software with clear organization, smooth flow, and secure features. 
 I chose this artifact because it highlights solid software design and engineering skills that connect directly to the CS-499 program goals. Improving this project gave me the chance to show what I’ve learned about writing modular code, handling errors the same way throughout the app, keeping user actions secure, and maintaining code that’s easy to update. It also shows how one application can connect the database, logic, and front-end in a way that stays organized and easy to grow. 
 
 For the Software Design and Engineering milestone, I made several updates focused on keeping the code structured, maintainable, and secure. These included:
 
 1. Global Error Handling and Logging 
+
 a.	Added a request ID middleware to generate unique identifiers for every incoming request. 
+
 b.	Standardized API error responses to use a uniform structure: { code, message, requestId }. 
+
 c.	Implemented structured logging to capture request IDs, error codes, and detailed context.
+
 d.	 Files Updated: app.js, app_api/controllers/trips.js 
 
-2.	JWT Middleware and Role Management 
+2.	JWT Middleware and Role Management
+   
 a.	Completed JWT authentication middleware to validate Bearer tokens, check expiration, and attach the verified user to requests. 
+
 b.	Implemented consistent 401 JSON responses and added placeholders for role-based access control. 
+
 c.	Files Updated: app_api/routes/index.js 
 
-3.	Controller and Model Improvements 
+3.	Controller and Model Improvements
+   
 a.	Added safe field whitelisting for updates and enabled Mongoose’s runValidators option to prevent unsafe database writes. 
+
 b.	Added graceful database shutdown logic to prevent resource leaks. 
+
 c.	Files Updated: app_api/controllers/trips.js, app_api/models/db.js 
 
-4.	Angular Client Enhancements 
+4.	Angular Client Enhancements
+   
 a.	Implemented an Angular route guard (AuthGuard) to protect administrative routes. 
+
 b.	Enhanced the JWT interceptor to automatically redirect users to /login when authentication fails. 
+
 c.	Files Updated: app_admin/src/app/guards/auth.guard.ts, app_admin/src/app/utils/jwt-interceptor.ts
 
 Skills Demonstrated
