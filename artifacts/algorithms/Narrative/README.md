@@ -22,16 +22,27 @@ c.	Files Updated: authentication.js
 a.	Integrated RxJS debounceTime() operator in the Angular search feature to prevent excessive API calls during typing. 
 b.	Reduced request overhead and improved UI responsiveness while preserving real-time search feel. 
 c.	Files Updated: trip-listing.component.ts
-d.	
+
 Skills Demonstrated 
+
 •	Algorithmic Thinking: I checked how the code used time and memory to make sure the improvements didn’t make it slower or use more resources than needed.
+
 •	Security-Focused Implementation: I used PBKDF2 hashing to show how passwords can be safely protected using a secure algorithm.
+
 •	Front-End Optimization: I added a debounce feature to stop extra network requests and make the app respond faster.
+
 •	Testing and Verification: I ran both manual and automated tests to make sure the new code worked with old and new data without breaking anything that was already working.
+
 This milestone helped me better understand how different algorithm choices can affect how a system works in the real world. Increasing the PBKDF2 iterations made passwords safer, but it also made the system take longer to process. To handle that, I tested it on several devices to make sure it still worked well without timing out. 
+
 Adding the debounce feature in Angular showed me how timing and data flow can change how smooth and fast the app feels. I had to adjust the delay to keep the app quick while still giving users a good experience. 
+
 The hardest part was making sure these updates worked correctly with the database and front-end without breaking login or other features. I had to do careful testing and debugging step by step. This experience taught me how important it is to use unit testing, check performance, and make sure everything works as expected before releasing it.This enhancement aligns strongly with the following CS program outcomes: 
+
 •	CO3 – Design and Evaluate Computing Solutions: Applied algorithmic principles to improve efficiency and security of key system functions such as authentication and filtering. 
+
 •	CO4 – Innovative Tools and Techniques: Used RxJS operators and cryptographic standards to enhance performance and maintain user-friendly interactions. 
+
 •	CO5 – Security Mindset: Strengthened protection of sensitive data and improved user authentication processes through secure algorithms and validation controls.
+
 Improving the algorithm parts of the Travlr Getaways project showed that I can design, build, and test algorithms that focus on both speed and security. I used encryption methods, front-end improvements, and data checks that follow common industry standards. These changes made the program run faster, kept user data safe, and helped me build the skills I need to create reliable and secure software for industrial control systems.
