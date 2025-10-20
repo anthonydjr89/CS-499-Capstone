@@ -7,7 +7,7 @@ The work here focuses on improving performance and scalability through efficient
 
 - [📁 Original Files](./Original/) — Contains the initial versions of all related files before enhancements.  
 - [⚙️ Enhanced Files](./Enhancements/) — Contains the improved versions that implement pagination, indexing, and optimized data handling.
-
+- [📝 Narrative](./Narrative/) — Contains the written narrative explaining the purpose, enhancements, skills demonstrated, and outcome alignment.
 
 ## 🧩 Summary
 
