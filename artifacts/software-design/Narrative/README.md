@@ -1,9 +1,13 @@
 Software Design & Engineering Narrative 
 
 Name: Anthony DePoalo 
+
 Course: CS-499 – Computer Science Capstone 
+
 Instructor: Joseph Martinez 
+
 Date: October 19, 2025
+
 
 The artifact for this enhancement is the Travlr Getaways project, a MEAN stack (MongoDB, Express, Angular, Node.js) travel app I first built in CS-465 Full Stack Development. It includes a RESTful API with JWT login, a server-rendered website, and an Angular dashboard used to manage trip data. I picked this project because it’s a full-stack system that shows my ability to build software with clear organization, smooth flow, and secure features. 
 I chose this artifact because it highlights solid software design and engineering skills that connect directly to the CS-499 program goals. Improving this project gave me the chance to show what I’ve learned about writing modular code, handling errors the same way throughout the app, keeping user actions secure, and maintaining code that’s easy to update. It also shows how one application can connect the database, logic, and front-end in a way that stays organized and easy to grow. 
