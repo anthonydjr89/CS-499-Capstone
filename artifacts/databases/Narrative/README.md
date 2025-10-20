@@ -2,8 +2,11 @@
 Databases Narrative
 
 Name: Anthony DePoalo 
+
 Course: CS-499 – Computer Science Capstone 
+
 Instructor: Joseph Martinez 
+
 Date: October 19, 2025
 
 The artifact for this milestone is the database layer of my Travlr Getaways MEAN stack project, which I first built in CS-465 Full Stack Development. The system uses MongoDB with Mongoose to store, check, and organize user and trip data. It also manages login, error handling, and clean API responses. For this milestone, I worked on making the database connection stronger, improving how inputs are checked, adding limits where needed, and keeping data accurate under real working conditions. 
