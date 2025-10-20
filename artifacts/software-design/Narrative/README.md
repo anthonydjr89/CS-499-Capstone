@@ -11,14 +11,11 @@ The artifact for this enhancement is the Travlr Getaways project, a MEAN stack (
 I chose this artifact because it highlights solid software design and engineering skills that connect directly to the CS-499 program goals. Improving this project gave me the chance to show what I’ve learned about writing modular code, handling errors the same way throughout the app, keeping user actions secure, and maintaining code that’s easy to update. It also shows how one application can connect the database, logic, and front-end in a way that stays organized and easy to grow. 
 
 For the Software Design and Engineering milestone, I made several updates focused on keeping the code structured, maintainable, and secure. These included:
-Global Error Handling and Logging 
 
+1. Global Error Handling and Logging 
 a.	Added a request ID middleware to generate unique identifiers for every incoming request. 
-
 b.	Standardized API error responses to use a uniform structure: { code, message, requestId }. 
-
 c.	Implemented structured logging to capture request IDs, error codes, and detailed context.
-
 d.	 Files Updated: app.js, app_api/controllers/trips.js 
 
 2.	JWT Middleware and Role Management 
