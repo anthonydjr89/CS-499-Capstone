@@ -7,7 +7,6 @@ Date: October 19, 2025
 
 The artifact for this enhancement comes from the Travlr Getaways full-stack project. This app handles trip data using both server-side code with Node.js and Express, and client-side code with Angular. It uses several algorithms for login, data filtering, and managing what’s shown on screen. For this part, I worked on making the code faster, using better algorithm logic, and improving security through cleaner data handling. 	
 This artifact shows that I can study, build, and improve algorithms to make them both faster and safer. Updating the Travlr Getaways project gave me the chance to use key computer science skills in a real full-stack web app. By improving password hashing, making login checks stronger, and speeding up the front-end search, I showed that I can apply algorithm concepts in ways that make a real difference for users and system performance.
-
 Enhancements Implemented 
 1.	PBKDF2 Iteration Increase for Secure Hashing 
 a.	Increased PBKDF2 iteration count to over 100,000 to align with current NIST and OWASP recommendations for secure password storage. 
@@ -36,4 +35,3 @@ The hardest part was making sure these updates worked correctly with the databas
 •	CO4 – Innovative Tools and Techniques: Used RxJS operators and cryptographic standards to enhance performance and maintain user-friendly interactions. 
 •	CO5 – Security Mindset: Strengthened protection of sensitive data and improved user authentication processes through secure algorithms and validation controls.
 Improving the algorithm parts of the Travlr Getaways project showed that I can design, build, and test algorithms that focus on both speed and security. I used encryption methods, front-end improvements, and data checks that follow common industry standards. These changes made the program run faster, kept user data safe, and helped me build the skills I need to create reliable and secure software for industrial control systems.
-
